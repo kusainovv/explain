@@ -5,7 +5,7 @@ canvas {
 }
 
 
-.content {
+#content {
   top: 15%;
   left: 50%;
   position: absolute;
@@ -14,4 +14,23 @@ canvas {
   font-weight: 100;
   font-family: 'Inter', sans-serif;
   transform: translateX(-50%);
+}
+
+
+button {
+  padding: 10px 20px;
+  background: transparent;
+  color: white;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#connect {
+  background-color: #FF6347;
+}
+
+#get_address {
+  background-color: #dc996a;
 }
