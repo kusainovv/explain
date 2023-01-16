@@ -154,7 +154,7 @@
     
     
     
-# Реализация Keplr
+# *Реализация Keplr
 
 Результат - https://explain-9ayw.vercel.app  
 Код - https://github.com/kusainovv/explain/tree/main/app  
