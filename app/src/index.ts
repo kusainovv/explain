@@ -14,7 +14,7 @@ window.onload = () => {
 }
 
 
-const connectToKepler = async () => {
+const connectToKeplr = async () => {
     const chainId = 'keplr-1';
     try {
         await window.keplr.enable(chainId);
@@ -41,7 +41,7 @@ const getAddress = async () => {
     }
 }
 
-document.getElementById('connect')?.addEventListener('click', connectToKepler);
+document.getElementById('connect')?.addEventListener('click', connectToKeplr);
 document.getElementById('get_address')?.addEventListener('click', getAddress);
 
 
