@@ -1,0 +1,17 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.content {
+  top: 15%;
+  left: 50%;
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  font-family: 'Inter', sans-serif;
+  transform: translateX(-50%);
+}
